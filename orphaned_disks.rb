@@ -8,7 +8,7 @@ creds = {
   :vdc => '<vdc name>'
 }
 
-filename = 'disks.csv'
+filename = 'disks.txt'
 outfile = 'orphaned_disks.txt'
 
 
