@@ -1,1 +1,6 @@
 test.rb
+*.txt
+*.log
+rest
+Gemfile.lock
+disks.csv

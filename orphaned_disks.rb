@@ -34,8 +34,8 @@ puts "ORPHANED DISKS:\n"
 output = File.open(outfile,'w')
 
 orphaned.each do |disk|
-  puts "Name: #{disk.name} CID: #{disk.href.split('/').last}"
-  output.write("#{disk.name},#{disk.href.split('/').last}\n")
+  puts "Name: #{disk.name} CID: #{disk.href.split('/').last} Status: #{disk.status}"
+  output.write("#{disk.name},#{disk.href.split('/').last},#{disk.status}\n")
 end
 
 output.close
